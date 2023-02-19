@@ -1,0 +1,155 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  min-height: 100vh;
+  background-color: hsl(216, 12%, 8%);
+  color: white;
+  font-weight: 400;
+}
+
+main {
+  width: 300px;
+  height: 350px;
+  border-radius: 30px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: linear-gradient(#242f37, #161e29);
+  padding: 25px;
+}
+
+.center {
+  text-align: center;
+}
+
+.bodyCopy {
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 30px;
+  font-size: .95em;
+  line-height: 160%;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 1.9em;
+  letter-spacing: .01rem;
+  margin-top: 45px;
+}
+
+.ratingSelection {
+  width: 60%;
+  font-size: .7em;
+  margin: 0 auto;
+  color: hsl(25, 97%, 53%);
+  background-color: #242f37;
+  padding: 1px 10px;
+  border-radius: 30px;
+  font-weight: 400;
+  line-height: 10px;
+}
+
+.thankYouIllustration {
+  height: 97px;
+  width: 142px;
+  margin-left: 74px;
+  margin-bottom: 10px;
+}
+
+/* STAR DIV */
+/* -------- */
+
+.starDiv {
+  background-color: #161e29;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.starIcon {
+  position: relative;
+  top: 25%;
+  bottom: 30%;
+  left: 30%;
+  right: 30%;
+  margin: auto;
+}
+
+@media only screen and (min-width: 600px) {
+  main {
+    width: 414px;
+    height: 414px;
+    padding: 35px;
+  }
+
+  .bodyCopy {
+    letter-spacing: .01rem;
+    font-size: 1rem;
+  }
+
+  .ratingRequest {
+    width: 86%;
+  }
+
+  .starDiv {
+    width: 52px;
+    height: 52px;
+  }
+
+  .starIcon {
+    top: 32%;
+    left: 35%;
+  }
+
+  .topMargin50 {
+    margin-top: 50px;
+  }
+
+  .thankYouIllustration {
+    height: 100px;
+    width: 160px;
+    margin-left: 115px;
+    margin-bottom: 40px;
+  }
+
+  .thankYou {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

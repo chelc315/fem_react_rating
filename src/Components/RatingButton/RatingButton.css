@@ -1,0 +1,27 @@
+.ratingButton {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #242f37;
+  color: hsl(217, 12%, 63%);
+  text-align: center;
+  border: none;
+}
+
+.hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+.selected {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+@media only screen and (min-width: 600px) {
+    .ratingButton {
+        width: 52px;
+        height: 52px;
+        font-size: 1rem;
+    }
+}
